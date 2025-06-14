@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>My Portfolio</title>
+</head>
+<body>
+        <nav>
+            <div class="nav-container">
+                <header>
+                    <a href="#" class="logo"><img src="kuromi2.png" alt=""></a>
+                </header>
+                <div class="links">
+                <div class="link"><a href="#"> HOME </a></div>
+                <div class="link"><a href="#"> CORE STRENGTHS </a></div>
+                <div class="link"><a href="#"> SHOWCASE </a></div>
+                <div class="link"><a href="#"> LESSON & GROWTH </a></div>
+                <div class="link"><a href="#"> CONTACT </a></div>
+                </div>
+                <i class="fa-solid fa-bars hamburg" onclick="hamburg()"></i>
+            </div>
+            <div class="dropdown">
+                <div class="links">
+                    <a href="#">HOME</a>
+                    <a href="#">CORE STRENGTHS</a>
+                    <a href="#">SHOWCASE</a>
+                    <a href="#">LESSON & GROWTH </a>
+                    <a href="#">CONTACT</a>
+                    <i class="fa-solid fa-xmark cancel" onclick="cancel()"></i>
+                </div>
+            </div>
+        </nav>
+    <!--HOME-->
+    <section class="home">
+        <div class="home-img">
+            <img src="main.jpg" alt="">
+        </div>
+        <div class="home-content">
+            <h1>Hi, It's <span>Ella Ricci</span></h1>
+            <h3 class="typewriter-text">I'm a <span></span></h3>
+            <p>Computer Science student who enjoys solving problems and bringing ideas to life through code. I grew up in Cavite with my family, along with my two younger siblings — a sister who’s four years younger and a brother who’s eight years younger — and we’ve spent most of our lives here. In my free time, I love playing online games where I can connect with friends, and I find coding most fun when I get to see the results of what I’ve built.</p>
+            <div class="social-links">
+                <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="#"><i class="fa-brands fa-github"></i></a>
+                <a href="#"><i class="fa-brands fa-discord"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            </div>
+            <a href="#" class="btn">Hire Me</a>
+        </div>
+    </section>
+
+    <!--Competencies-->
+    <section class="core" id="core">
+        <div class="content">
+            <div class="title"><span>CORE STRENGTHS</span></div>
+            <div class="core-details">
+                <div class="text">
+                    <div class="topic">
+                        Skills are a mirror of our knowledge.
+                    </div>
+                    <p data-aos="fade-right">As a Computer Science student, I have developed a strong foundation in programming, problem-solving, and logical thinking. I enjoy working on projects that challenge me to apply what I’ve learned, especially in coding and system design. My growing skillset reflects both my academic knowledge and hands-on experience through personal and collaborative work.</p>
+                    <div class="experience">
+                        <div class="num">3</div>
+                        <div class="exp">
+                            Years Of <br/>
+                            Studying <br/>
+                            Computer Science
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="boxes">
+                <div class="box">
+                    <div class="topic">HTML</div>
+                    <div class="per">90%</div>
+                </div>
+                <div class="box">
+                    <div class="topic">CSS</div>
+                    <div class="per">90%</div>
+                </div>
+                <div class="box">
+                    <div class="topic">PYTHON</div>
+                    <div class="per">80%</div>
+                </div>
+                <div class="box">
+                    <div class="topic">JavaScript</div>
+                    <div class="per">50%</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--SHOWCASE-->
+    <section class="showcase" id="showcase">
+        <div class="content">
+            <div class="title"><span>PORTFOLIO</span></div>
+            <div class="boxes">
+                <div class="box">
+                    <div class="icon">
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--LESSON & GROWTH-->
+    <section class="lesson" id="lesson">
+        <div class="content">
+            <div class="title"><span>SKILLS ACQUIRED</span></div>
+            <div class="boxes">
+                <div class="box">
+                    <div class="icon">
+                        <i class="fas fa-desktop"></i>
+                    </div>
+                    <div class="topic">Web Development</div>
+                    <p>One web development skill I learned in school is how to create basic websites using HTML, CSS, and JavaScript. I was taught how to design a webpage, style it, and make it interactive. This helped me understand how websites work and how to build simple, responsive pages.</p>
+
+                    <div class="icon">
+                        <i class="fas fa-paint-brush"></i>
+                    </div>
+                    <div class="topic">Graphic Design</div>
+                    <p>In school, I learned the basics of graphic design using tools like GIMP, Canva, and Photoshop. I use these programs to create posters, logos, and other visual content. Through this, I learned how to combine colors, fonts, and layout to make designs that are clear, creative, and eye-catching.</p>
+
+                    <div class="icon">
+                        <i class="fas fa-gamepad"></i>
+                    </div>
+                    <div class="topic">Game Development</div>
+                    <p>In school, I learned the basics of game development using Greenfoot and Godot. These tools helped me understand how games are built, from coding movements to adding graphics and sounds. I was able to create simple interactive games and explore how game logic and design work together.</p>
+
+                    <div class="icon">
+                        <i class="fas fa-cogs"></i>
+                    </div>
+                    <div class="topic">System Development</div>
+                    <p>In school, I learned how to develop basic systems, like enrollment or inventory systems. I was taught how to plan, design, and build them using tools like Visual Basic or databases like MySQL. This helped me understand how different parts of a system work together to solve real-life problems.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--CONTACT-->
+    <section class="contact" id="contact">
+        <div class="content">
+            <span>Contact Me</span>
+        </div>
+        <div class="text">
+            <div class="topic">Have any concern?</div>
+            <p>Feel free to reach out for collaborations, questions, or just to connect!</p>
+            <div class="button">
+                <button>Let's Chat</button>
+            </div>
+            <div class="button">
+                <button>Download CV</button>
+            </div>
+        </div>
+    </section>
+
+    <!--FOOTER-->
+    <footer>
+        <div class="text">
+            <span>Created By
+                <a href="#">sooolo_0</a>
+                | &#169; 2025 All Rights Reserved
+            </span>
+        </div>
+    </footer>
+</body>
+</html>
